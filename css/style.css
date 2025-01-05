@@ -12,9 +12,12 @@ body {
 
 h1 {
     color: white;
-    font-family: 'lastica';
+    font-family: 'FontsFree-Net-Lastica';
+    font-size: 36px;
 }
 
 h2 {
     color: white;
+    font-family: 'FontsFree-Net-Lastica';
+    font-size: 18px;
 }
