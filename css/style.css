@@ -1,27 +1,19 @@
 body {
-
-}
-
-.landingpage {
     background-image: url('../images/backgroundA.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100%;
-    width: 100%;
 }
 
 .logo img{
     padding-top: 30px;
     padding-left: 30px;
-    border: 0px;
-    padding-right: 0px;
     height: 250px;
     width: 250px;
 
 }
 
-.greeting{
+.landingpage {
     padding-top: 100px;
     margin-top: 100px;
 }
@@ -30,14 +22,14 @@ h1 {
     color: white;
     font-size: 70px;
     font-family: 'lastic';
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
 h2 {
     color: white;
     font-size: 35px;
     font-family: 'lastic';
-    letter-spacing: 10px;
+    letter-spacing: 8px;
 }
 
 @font-face {
