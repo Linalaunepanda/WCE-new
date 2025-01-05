@@ -4,3 +4,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+.landingpage {
+    padding-top: 300px;
+    margin-top: 300px;
+}
