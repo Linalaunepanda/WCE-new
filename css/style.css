@@ -23,5 +23,6 @@ h2 {
 
 @font-face {
     font-family: 'lastic';
-  src: url(//fonts/FontsFree-Net-Lastica.woff2);
+  src: url('fonts/FontsFree-Net-Lastica.woff2') format('woff2'),
+    url('fonts/FontsFree-Net-Lastica.woff') format('woff');
   }
