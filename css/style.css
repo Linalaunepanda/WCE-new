@@ -26,13 +26,10 @@ body {
 }
 
 .aboutme-text {
-    padding-top: 100px;
-    
-    padding left: 200px;
+ 
    text-align: right;
-  
-    margin-left: 100px;
-    margin-right: 0;
+display: block;
+
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
