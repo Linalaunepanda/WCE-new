@@ -1,4 +1,8 @@
 body {
+
+}
+
+.landingpage {
     background-image: url('../images/backgroundA.png');
     background-size: cover;
     background-repeat: no-repeat;
@@ -15,7 +19,7 @@ body {
 
 }
 
-.landingpage {
+.greeting{
     padding-top: 100px;
     margin-top: 100px;
 }
