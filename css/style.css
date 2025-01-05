@@ -21,6 +21,7 @@ body {
 .aboutme {
     height: 1000px;
     width: 1300px;
+    background-size: cover;
     background-image: url('../images/backgroundB.png');
 }
 
