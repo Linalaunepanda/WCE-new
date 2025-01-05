@@ -7,12 +7,13 @@ body {
 
 .landingpage {
     padding-top: 100px;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 h1 {
     color: white;
     font-size: 70px;
+    font-family: 'lastic';
 }
 
 h2 {
@@ -21,10 +22,6 @@ h2 {
 }
 
 @font-face {
-    font-family: "Newtown";
-    src: url("/fonts/FontsFree-Net-Lastica.woff2") format("woff2"),
-      url("../fonts/FontsFree-Net-Lastica.woff2") format("woff");
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
+    font-family: 'lastic';
+  src: url(//fonts/FontsFree-Net-Lastica.woff2);
   }
