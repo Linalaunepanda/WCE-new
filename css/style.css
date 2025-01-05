@@ -21,3 +21,12 @@ h2 {
     font-family: 'FontsFree-Net-Lastica';
     font-size: 18px;
 }
+
+@font-face {
+    font-family: "Newtown";
+    src: url("/fonts/FontsFree-Net-Lastica.woff2") format("woff2"),
+      url("../fonts/FontsFree-Net-Lastica.woff2") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
