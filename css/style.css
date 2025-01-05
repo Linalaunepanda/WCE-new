@@ -6,6 +6,15 @@ body {
 }
 
 .landingpage {
-    padding-top: 300px;
-    margin-top: 300px;
+    padding-top: 200px;
+    margin-top: 200px;
+}
+
+h1 {
+    color: white;
+    font-family: 'lastica';
+}
+
+h2 {
+    color: white;
 }
