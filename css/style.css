@@ -22,14 +22,14 @@ h1 {
     color: white;
     font-size: 70px;
     font-family: 'lastic';
-    letter-spacing: 3px;
+    letter-spacing: 10px;
 }
 
 h2 {
     color: white;
     font-size: 35px;
     font-family: 'lastic';
-    letter-spacing: 3px;
+    letter-spacing: 10px;
 }
 
 @font-face {
