@@ -67,7 +67,7 @@ body {
 
 .boxfaqs {
     flex: 1;
-    margin: 0 10px;
+    margin: 0 0px;
     text-align: center;
     border: 3px solid white;
 }
