@@ -83,6 +83,13 @@ body {
     width: 410px;
 }
 
+.reviews {
+    background-image: url('../images/backgroundD.png');
+    background-size: cover;
+    padding: 50px 20px;
+    color: white;
+}
+
 h1 {
     color: white;
     font-size: 70px;
