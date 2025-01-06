@@ -55,3 +55,64 @@ h2 {
   src: url('fonts/FontsFree-Net-Lastica.woff2') format('woff2'),
     url('fonts/FontsFree-Net-Lastica.woff') format('woff');
   }
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .logo img {
+        height: 200px;
+        width: 200px;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    .aboutme {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo img {
+        height: 150px;
+        width: 150px;
+    }
+
+    h1 {
+        font-size: 50px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .aboutme-text {
+        padding-top: 100px;
+        padding-right: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .logo img {
+        height: 100px;
+        width: 100px;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .aboutme-text {
+        padding-top: 50px;
+        padding-right: 10px;
+    }
+}
