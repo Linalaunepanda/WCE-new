@@ -90,6 +90,16 @@ body {
     color: white;
 }
 
+.review-box {
+    border: 1px solid white;
+    padding-left: 500px;
+    height: 300px;
+    width: auto;
+    flex: 1;
+    margin: 0 10px;
+    text-align: justify;
+}
+
 h1 {
     color: white;
     font-size: 70px;
