@@ -43,6 +43,10 @@ body {
     color: white;
 }
 
+.services h3{
+    text-align: center;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
