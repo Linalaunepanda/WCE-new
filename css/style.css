@@ -3,14 +3,16 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.logo img{
+.logo img {
     padding-top: 30px;
     padding-left: 30px;
     height: 250px;
     width: 250px;
-
 }
 
 .landingpage {
@@ -19,48 +21,51 @@ body {
 }
 
 .aboutme {
-    height: 1000px;
-    width: 1900px;
-    background-size: cover;
     background-image: url('../images/backgroundB.png');
+    background-size: cover;
+    padding: 50px 20px;
+    color: white;
 }
 
 .aboutme-text {
     padding-top: 150px;
-    padding-right: 25px;;
-    color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-right: 25px;
     hyphens: auto;
-    text-align: justify; /* für Edge */
-    -moz-text-align-last: right; /* für Firefox vor 58.0 */
+    text-align: justify;
+    -moz-text-align-last: right;
     text-align-last: right;
 }
 
 h1 {
     color: white;
     font-size: 70px;
-    font-family: 'lastic';
+    font-family: 'lastic', sans-serif;
     letter-spacing: 8px;
 }
 
 h2 {
     color: white;
     font-size: 35px;
-    font-family: 'lastic';
+    font-family: 'lastic', sans-serif;
     letter-spacing: 8px;
 }
 
 @font-face {
     font-family: 'lastic';
-  src: url('fonts/FontsFree-Net-Lastica.woff2') format('woff2'),
-    url('fonts/FontsFree-Net-Lastica.woff') format('woff');
-  }
+    src: url('fonts/FontsFree-Net-Lastica.woff2') format('woff2'),
+         url('fonts/FontsFree-Net-Lastica.woff') format('woff');
+}
 
-/* Responsive Design */
-@media (max-width: 1200px) {
-    .logo img {
-        height: 200px;
-        width: 200px;
+/* Responsive design additions */
+@media screen and (max-width: 1200px) {
+    .aboutme {
+        width: 100%;
+        height: auto;
+    }
+
+    .aboutme-text {
+        padding-top: 100px;
+        padding-right: 15px;
     }
 
     h1 {
@@ -70,49 +75,63 @@ h2 {
     h2 {
         font-size: 30px;
     }
-
-    .aboutme {
-        width: 100%;
-        height: auto;
-    }
 }
 
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .logo img {
         height: 150px;
         width: 150px;
+        padding-left: 15px;
     }
 
-    h1 {
-        font-size: 50px;
-    }
-
-    h2 {
-        font-size: 25px;
-    }
-
-    .aboutme-text {
-        padding-top: 100px;
-        padding-right: 15px;
-    }
-}
-
-@media (max-width: 480px) {
-    .logo img {
-        height: 100px;
-        width: 100px;
-    }
-
-    h1 {
-        font-size: 40px;
-    }
-
-    h2 {
-        font-size: 20px;
+    .landingpage {
+        padding-top: 50px;
+        margin-top: 50px;
     }
 
     .aboutme-text {
         padding-top: 50px;
         padding-right: 10px;
+    }
+
+    h1 {
+        font-size: 40px;
+        letter-spacing: 4px;
+    }
+
+    h2 {
+        font-size: 25px;
+        letter-spacing: 4px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .logo img {
+        height: 100px;
+        width: 100px;
+        padding-left: 10px;
+    }
+
+    .landingpage {
+        padding-top: 30px;
+        margin-top: 30px;
+    }
+
+    .aboutme-text {
+        padding-top: 30px;
+        padding-right: 5px;
+        text-align: left;
+        -moz-text-align-last: left;
+        text-align-last: left;
+    }
+
+    h1 {
+        font-size: 30px;
+        letter-spacing: 2px;
+    }
+
+    h2 {
+        font-size: 20px;
+        letter-spacing: 2px;
     }
 }
