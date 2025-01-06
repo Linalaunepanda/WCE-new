@@ -63,6 +63,7 @@ body {
     background-size: cover;
     padding: 50px 20px;
     color: white;
+    height: 100vh;
 }
 
 .boxfaqs {
@@ -86,15 +87,40 @@ body {
 .reviews {
     background-image: url('../images/backgroundD.png');
     background-size: cover;
-    padding: 50px 20px;
+    padding: 150px 20px;
     color: white;
+    height: 100vh;
+}
+
+ul {
+    padding-left: 600px;
+    padding-top: 150px;
 }
 
 .review-box {
-    flex: 1;
-    margin: 0 10px;
+    margin: 10px 5px;
     text-align: center;
-    border: 3px solid white;
+    border: 1px solid white;
+    height: 150px;
+    display: block;
+    width: 100%;
+
+}
+
+.footer {
+    position: flex;
+    bottom: 0;
+    padding: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1000;
+}
+
+.footer-text {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    hyphens: auto;
+    text-align: justify;
+    color: white;
 }
 
 h1 {
