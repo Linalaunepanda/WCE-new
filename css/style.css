@@ -36,6 +36,24 @@ body {
     text-align-last: right;
 }
 
+.services {
+    background-image: url('../images/backgroundB.png');
+    background-size: cover;
+    padding: 50px 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.box {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
 h1 {
     color: white;
     font-size: 70px;
