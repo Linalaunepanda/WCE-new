@@ -58,6 +58,13 @@ body {
     text-align: center;
 }
 
+.faqs {
+    background-image: url('../images/backgroundC.png');
+    background-size: cover;
+    padding: 50px 20px;
+    color: white;
+}
+
 h1 {
     color: white;
     font-size: 70px;
