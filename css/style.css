@@ -52,7 +52,7 @@ body {
     justify-content: space-between;
     padding: 50px;
 }
-.box {
+.boxservices {
     flex: 1;
     margin: 0 10px;
     text-align: center;
@@ -63,6 +63,19 @@ body {
     background-size: cover;
     padding: 50px 20px;
     color: white;
+}
+
+.boxfaqs {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.question {
+    background-color: darkmagenta;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
 }
 
 h1 {
