@@ -8,11 +8,31 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.logo img {
+.logocontainer{
     padding-top: 30px;
     padding-left: 30px;
-    height: 250px;
-    width: 250px;
+    height: 130px;
+    width: 130px;
+    background-image: url('../images/logo6.png');
+    background-size: cover;
+    margin-left: 30px;
+}
+
+
+
+.wce {
+    font-family: "Newtown";
+    color: white;
+    position: cover;
+    position: relative;
+    text-align: top;
+    padding-left: 40px;
+  
+}
+
+.logotext {
+    text-align: right;
+    position: flex;
 }
 
 /* Dropdown Menu */
@@ -54,7 +74,7 @@ body {
     border: none;
     outline: none;
     color: white;
-    padding-left: 30px
+    padding-left: 30px;
     background-color: inherit;
     font-size: 16px;
     margin: 0;
@@ -77,8 +97,8 @@ body {
 
 .dropdown-content a {
     float: none;
-    color: white
-    padding-left: 30px
+    color: white;
+    padding-left: 30px;
     text-decoration: none;
     display: block;
     text-align: left;
@@ -237,7 +257,7 @@ a {
 h1 {
     color: white;
     font-size: 70px;
-    font-family: 'lastic', sans-serif;
+    font-family: 'Newtown', sans-serif;
     letter-spacing: 8px;
     padding-left: 30px;
 }
@@ -339,3 +359,15 @@ h3 {
         letter-spacing: 2px;
     }
 }
+
+
+@font-face {
+    font-family: "Newtown";
+    src: url("./fonts/NEWTOW__.woff") format("woff2"),
+      url("./fonts/NEWTOW__.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  
