@@ -234,7 +234,11 @@ body {
 
 }
 
-.footer {
+
+/* Footer Landingpage*/
+
+.footerlanding {
+    color: white;
     padding-left: 30px;
     position: flex;
     bottom: 0;
@@ -250,8 +254,23 @@ body {
     margin: 0px 0px;
     hyphens: auto;
     text-align: justify;
+    color: white; 
+}
+
+/* Footer Side Pages */
+
+.footer {
     color: white;
-    
+    padding-left: 30px;
+    padding-top: 50px;
+    margin-top: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    z-index: 1000;
+    background-color: transparent; /* Add a background color to make it visible */
 }
 
 .impressum {
@@ -429,6 +448,25 @@ h3 {
     color: white;
     font-size: 18px;
 }   
+
+/* Sätze */
+
+.sätze h2 {
+    margin-top: 100px;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.sätze button {
+    background-color: darkmagenta;
+    border-radius: 10px;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin-left: 30px;
+}
 
 /* Kontakt Formular */
 
