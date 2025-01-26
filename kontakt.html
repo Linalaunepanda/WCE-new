@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Impressum</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>WCE - Kontakt</title>
+    <link rel="icon" href="favicon-32x32.png" type="image/x-icon" />
+  </head>
+
   <body>
     <header>
   <div class="menubox">
@@ -22,23 +23,36 @@
         <a href="über.html">Über</a>
         <a href="leistungen.html">Leistungen</a>
         <div class="dropdown">
-          <a href="leistungen.html" class="dropbtn">Leistungen</a>
-          <div class="dropdown-content">
-            <a href="projektmanagement.html">Projektmanagement</a>
-            <a href="verfahrenstechnik.html">Verfahrenstechnik</a>
-            <a href="cad.html">CAD-Bearbeitung</a>
-          </div>
-        </div>
+          <a href="leistungen.html" class="dropbtn">Projektmanagement</a>
+         
+            <a href="leistungen.html" class="dropbtn">Verfahrenstechnik</a>
+            
+              <a href="leistungen.html" class="dropbtn">Maschinen und Apparate</a>
+              
+                <a href="leistungen.html" class="dropbtn">Piping</a>
+                
+                  <a href="leistungen.html" class="dropbtn">CAD-Bearbeitung</a>
+                  
+                    <a href="leistungen.html" class="dropbtn">Schnittstellen</a>
+                    
+                      <a href="leistungen.html" class="dropbtn">Planung</a>
+                     
+                        <a href="leistungen.html" class="dropbtn">Webdesign</a>
+                        </div>
+     
         <a href="faqs.html">FAQs</a>
         <a href="referenzen.html">Referenzen</a>
         <a href="sätze.html">Sätze</a>
         <a href="kontakt.html">Kontakt</a>
-      </div>
+        </div>
+     
       <div class="logocontainer">
         <div class="logo">
+        <a href="index.html">
         <p class="wce">W</p>
         <p class="wce">C</p>
         <p class="wce">E</p>
+        </a>
         </div>
         
         <div class="logotext">
@@ -53,5 +67,60 @@
       </div>
     </header>
   
-</body>
-</html>
+    </div>
+
+    <script>
+      document.querySelector('.dropdown').addEventListener('mouseenter', function() {
+        let dropdownContent = this.querySelector('.dropdown-content');
+        dropdownContent.style.display = 'block';
+        setTimeout(() => {
+          dropdownContent.style.opacity = '1';
+          dropdownContent.style.transform = 'translateY(0)';
+        }, 10);
+      });
+      
+      document.querySelector('.dropdown').addEventListener('mouseleave', function() {
+        let dropdownContent = this.querySelector('.dropdown-content');
+        dropdownContent.style.opacity = '0';
+        dropdownContent.style.transform = 'translateY(-10px)';
+        setTimeout(() => {
+          dropdownContent.style.display = 'none';
+        }, 300);
+      });
+      </script>
+
+
+      <main>
+        <section class="contact-form">
+          <h2>Kontaktformular</h2>
+          <form action="mailto:andre.wellerdick@w-c-e.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">E-Mail Adresse:</label>
+            <input type="email" id="email" name="email" required />
+
+            <label for="phone">Telefonnummer (optional):</label>
+            <input type="tel" id="phone" name="phone" />
+
+            <label for="message">Anfrage:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Senden</button>
+          </form>
+        </section>
+      </main>
+      <footer>
+        <div class="footer">
+            <div class="footer-text">
+            <p>
+                Wellerdick Consulting & Engineering UG <a href="impressum.html" target="_blank">Impressum</a> <a href="kontakt.html" target="_blank">Kontakt</a>
+            </p>
+           
+                
+           
+            </div>
+        </div>
+    </footer>
+  </body>
+  </html>
