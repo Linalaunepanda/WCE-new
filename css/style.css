@@ -235,6 +235,7 @@ body {
 }
 
 .footer {
+    padding-left: 30px;
     position: flex;
     bottom: 0;
     width: 100%;
@@ -245,7 +246,7 @@ body {
 }
 
 .footer-text {
-    padding: 0px 0px;
+    padding: 0px 30px;
     margin: 0px 0px;
     hyphens: auto;
     text-align: justify;
@@ -336,6 +337,98 @@ h3 {
     white-space: nowrap;
 }
 
+
+/* Projektmanagement */
+
+.projektmanagement h2 {
+    margin-top: 100px;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.projektmanagement p {
+    padding-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.projektmanagement img {
+    padding-left: 30px;
+    padding-top: 30px;
+    width: 300px;
+    height: 300px;
+}
+
+.projektmanagement ul {
+    padding-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+/*Verfahrenstechnik */
+
+.verfahrenstechnik h2 {
+    margin-top: 100px;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.verfahrenstechnik ul {
+    padding-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.verfahrenstechnik p {
+    padding-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+/* Maschinen */
+
+.maschinen h2 {
+    margin-top: 100px;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+}   
+
+.maschinen ul {
+    padding-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+.maschinen p {
+    padding-left: 30px;
+    color: white;
+    font-size: 18px;
+}
+
+
+/* CAD */
+
+.cad h2 {
+    margin-top: 100px;
+    padding-left: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.cad ul {
+    padding-left: 30px;
+    color: white;
+    font-size: 18px;
+}   
+
+.cad p {
+    padding-left: 30px;
+    color: white;
+    font-size: 18px;
+}   
 
 /* Kontakt Formular */
 
