@@ -28,7 +28,7 @@ body {
 
 
 .wce {
-    font-family: "Newtowni";
+    font-family: "Newtown";
     color: white;
     position: cover;
     position: relative;
@@ -93,26 +93,26 @@ body {
   }
   
   .dropdown-content {
-    background-color: rgb(22, 1, 45);
+    background-color: white;
     display: none;
     position: absolute;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     font-weight: bold;
     border-radius: 20px;
+    z-index: 1;
   }
   
-  .dropdown-content a {
-    color: white;
+.dropdown-content a {
+    color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     font-family: 'Lastica', sans-serif;
-    display: fixed;
-  }
+    z-index: 1; /* Ensure the font is in the foreground */
+}
   
   .dropdown-content a:hover {
-    background-color: #7028bb19;
+   
   }
   
   .dropdown:hover .dropdown-content {
@@ -134,6 +134,18 @@ body {
 .greeting {
     padding-top: 150px;
 }
+
+.haftungsbeschränkt {
+    color: white;
+    font-size: 15px;
+}
+
+.dipling {
+    color: white;
+    font-size: 15px;
+}
+
+/* Über page */ 
 
 .aboutme {
     background-image: url('../images/backgroundE.png');
