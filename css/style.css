@@ -74,7 +74,8 @@ body {
     display: inline-block;
     padding-left: 30px;
     padding-right: 30px;
-    opacity: 1;
+
+    
   }
   
   .dropbtn {
@@ -94,6 +95,7 @@ body {
   
   .dropdown-content {
     background-color: white;
+    color: black;
     display: none;
     position: absolute;
     min-width: 160px;
@@ -112,7 +114,9 @@ body {
 }
   
   .dropdown-content a:hover {
-   
+   background-color: #72094a;
+   border-radius: 15px;
+    color: white;
   }
   
   .dropdown:hover .dropdown-content {
@@ -168,16 +172,17 @@ body {
     background-size: cover;
     padding: 50px 20px;
     color: white;
+    border-radius: 15px;
+    margin: 30px 30px;
 }
 
 .services h3{
     text-align: center;
 }
 
-.container {
+.servicescontainer {
     display: flex;
     justify-content: space-between;
-    padding: 50px;
 }
 .boxservices {
     flex: 1;
@@ -272,7 +277,7 @@ body {
     padding-left: 30px;
     padding-top: 50px;
     margin-top: 50px;
-    position: fixed;
+    position: relative;
     bottom: 0;
     width: 100%;
     padding: 10px 0;
@@ -342,16 +347,28 @@ h3 {
 
 /* Über Seite */
 
-.überseite h3 {
-    text-align: left;
-    color: white;
-    margin: 100px;
-    padding-left: 0px;
+.überseite-container {
+    margin: 30px 30px;
+    width: auto;
+    height: auto;
+   display: flex;
+   border-radius: 10px;
+   background-color: rgba(165, 165, 215, 0.369);
+   justify-content: space-between;
+   padding: 30px 30px;
+    
 }
 
 .überseite {
-    padding: 50px 20px;
     color: white;
+}
+
+.überfoto img {
+    
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    border: 8px solid white;
 }
 
 .wcefont 
@@ -364,11 +381,15 @@ h3 {
     white-space: nowrap;
 }
 
+.footerüber {
+    position: relative;
+}
+
 
 /* Projektmanagement */
 
 .projektmanagement h2 {
-    margin-top: 100px;
+    margin-top: 30x;
     padding-left: 30px;
     color: white;
     font-size: 30px;
@@ -396,7 +417,7 @@ h3 {
 /*Verfahrenstechnik */
 
 .verfahrenstechnik h2 {
-    margin-top: 100px;
+    margin-top: 30px;
     padding-left: 30px;
     color: white;
     font-size: 30px;
@@ -417,7 +438,7 @@ h3 {
 /* Maschinen */
 
 .maschinen h2 {
-    margin-top: 100px;
+    margin-top: 30px;
     padding-left: 30px;
     color: white;
     font-size: 30px;
