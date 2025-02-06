@@ -70,25 +70,25 @@ body {
 /* Dropdown Menu */
 .dropdown-content {
     background-color: white;
-    color: black;
+    color: black; /* This applies to the container, but more relevant for links */
     display: none;
     position: absolute;
     min-width: 160px;
     font-weight: bold;
     border-radius: 20px;
     z-index: 2;
-    opacity: 1; /* Ensure the background is fully opaque */
 }
 
 .dropdown-content a {
-    color: black;
+    color: black !important; /* Force the text color */
     padding: 12px 16px;
     text-decoration: none;
     display: block;
     font-family: 'Lastica', sans-serif;
-    z-index: 1; /* Ensure the font is in the foreground */
+    z-index: 1;
     opacity: 1; /* Ensure the text is fully opaque */
 }
+
 .dropdown {
     position: relative;
     display: inline-block;
@@ -113,14 +113,12 @@ body {
     display: flex;
   }
   
-
-
   
   .dropdown-content a:hover {
-   background-color: #72094a;
-   border-radius: 15px;
-    color: white;
-  }
+    background-color: #72094ad9;
+    border-radius: 15px;
+    color: white; /* White text on hover */
+ }
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -368,10 +366,10 @@ h3 {
 
 .überfoto img {
     
-    border-radius: 50%;
+    border-radius: 5%;
     height: 400px;
     width: 400px;
-    border: 8px solid white;
+    border: 4px solid white;
 }
 
 .wcefont 
@@ -462,8 +460,9 @@ h3 {
 
 /* CAD */
 
+
 .cad h2 {
-    margin-top: 100px;
+    margin-top: 30px;
     padding-left: 30px;
     color: white;
     font-size: 30px;
@@ -480,6 +479,36 @@ h3 {
     color: white;
     font-size: 18px;
 }   
+
+/* CAD photo album */
+
+.photo-album {
+    text-align: center;
+    margin: 20px 0;
+  }
+  .photo-container {
+    border: 2px solid white;
+    display: inline-block;
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+    background-color: white;
+  }
+  .photo-container img {
+    max-width: 100%;
+    height: 300px;
+  }
+.photo-controls button {
+    margin: 0 5px;
+    padding: 5px 10px;
+    background-color: white;
+    border-radius: 5px;
+    color: black;
+}
+  .photo-controls {
+    margin-top: 10px;
+  }
+
 
 /* Sätze */
 

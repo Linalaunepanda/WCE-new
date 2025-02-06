@@ -91,6 +91,7 @@
   </div>
   
 <main>
+  <div class="überseite-container">
   <div class="cad">
     <h2 id="cad"><b>CAD-Bearbeitung</b></h2>
     <br />
@@ -116,6 +117,48 @@
     <br />
   </div>
 
+  <div class="photo-album">
+    <div class="photo-container">
+      <img id="photo" src="images/Olpe6.bmp" alt="Photo 1" />
+    </div>
+    <div class="photo-controls">
+      <button id="prevBtn">Back</button>
+      <button id="nextBtn">Forward</button>
+    </div>
+  </div>
+
+  <script>
+  
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      currentPhotoIndex = (currentPhotoIndex + 1) % photos.length;
+      document.getElementById('photo').src = photos[currentPhotoIndex];
+      descriptionElement.textContent = photoDescriptions[currentPhotoIndex];
+    });
+    const photos = [
+      'images/Olpe5.bmp',
+      'images/Olpe4.bmp',
+      'images/Olpe3.bmp',
+      'images/Olpe2.bmp',
+      'images/Olpe.bmp',
+    ];
+    let currentPhotoIndex = 0;
+
+
+
+    document.getElementById('prevBtn').addEventListener('click', () => {
+      currentPhotoIndex = (currentPhotoIndex - 1 + photos.length) % photos.length;
+      document.getElementById('photo').src = photos[currentPhotoIndex];
+    });
+
+    document.getElementById('nextBtn').addEventListener('click', () => {
+      currentPhotoIndex = (currentPhotoIndex + 1) % photos.length;
+      document.getElementById('photo').src = photos[currentPhotoIndex];
+    });
+
+
+  </script>
+  </div>
   </main>
 
 
